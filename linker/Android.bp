@@ -104,6 +104,9 @@ cc_binary {
     product_variables: {
         debuggable: {
             cppflags: ["-DUSE_LD_CONFIG_FILE"],
+	},
+        legacy_blob_compatible: {
+            cppflags: ["-DLEGACY_BLOB_COMPATIBLE"],
         },
     },
 
